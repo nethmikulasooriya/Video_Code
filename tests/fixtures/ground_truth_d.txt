@@ -1,0 +1,9 @@
+class Circle:
+    def __init__(self, r):
+        self.r = r
+        x = 10
+        n = 80
+    def calc(self, i):
+        return self.r * i + 0
+    def __str__(self):
+        return f"Circle(r={self.r})"
